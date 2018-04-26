@@ -1,0 +1,382 @@
+
+{
+	"buildFiles" : [ "D:/Demo/EasyPR4Android/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:\\software\\windows\\AndroidSdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Demo\\EasyPR4Android\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"IlmImf-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "IlmImf",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/libIlmImf.a",
+			"toolchain" : "3440914729"
+		},
+		"libjasper-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libjasper",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/liblibjasper.a",
+			"toolchain" : "3440914729"
+		},
+		"libjpeg-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libjpeg",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/liblibjpeg.a",
+			"toolchain" : "3440914729"
+		},
+		"libpng-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libpng",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/liblibpng.a",
+			"toolchain" : "3440914729"
+		},
+		"libtiff-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libtiff",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/liblibtiff.a",
+			"toolchain" : "3440914729"
+		},
+		"libwebp-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libwebp",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/liblibwebp.a",
+			"toolchain" : "3440914729"
+		},
+		"mrcar-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "mrcar",
+			"buildCommand" : "D:\\software\\windows\\AndroidSdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Demo\\EasyPR4Android\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target mrcar",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/main.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/mrcar.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/src/core/chars_identify.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/src/core/chars_recognise.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/src/core/chars_segment.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/src/core/core_func.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/src/core/feature.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/src/core/params.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/src/core/plate_detect.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/src/core/plate_judge.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/src/core/plate_locate.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/src/core/plate_recognize.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/src/train/annCh_train.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/src/train/ann_train.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/src/train/create_data.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/src/train/svm_train.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/src/train/train.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/src/util/kv.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/src/util/program_options.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/src/util/util.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/thirdparty/LBP/helper.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/thirdparty/LBP/lbp.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/thirdparty/mser/mser2.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/thirdparty/textDetect/erfilter.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/software/windows/AndroidSdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/software/windows/AndroidSdk/ndk-bundle/sysroot  -DTBB_USE_GCC_BUILTINS=1 -D__TBB_GCC_BUILTIN_ATOMICS_PRESENT=1 -Dmrcar_EXPORTS -I..\\..\\..\\..\\src\\main\\jni\\include -I..\\..\\..\\..\\src\\main\\jni -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem ..\\..\\..\\..\\OpenCV-android-sdk\\sdk\\native\\jni\\include\\opencv -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\software\\windows\\AndroidSdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/software/windows/AndroidSdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/Demo/EasyPR4Android/app/src/main/jni/thirdparty/xmlParser/xmlParser.cpp",
+					"workingDirectory" : "D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "D:/Demo/EasyPR4Android/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libmrcar.so",
+			"toolchain" : "3440914729"
+		},
+		"opencv_calib3d-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_calib3d",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_calib3d.a",
+			"toolchain" : "3440914729"
+		},
+		"opencv_core-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_core",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_core.a",
+			"toolchain" : "3440914729"
+		},
+		"opencv_features2d-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_features2d",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_features2d.a",
+			"toolchain" : "3440914729"
+		},
+		"opencv_flann-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_flann",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_flann.a",
+			"toolchain" : "3440914729"
+		},
+		"opencv_highgui-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_highgui",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_highgui.a",
+			"toolchain" : "3440914729"
+		},
+		"opencv_imgcodecs-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_imgcodecs",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_imgcodecs.a",
+			"toolchain" : "3440914729"
+		},
+		"opencv_imgproc-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_imgproc",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_imgproc.a",
+			"toolchain" : "3440914729"
+		},
+		"opencv_java-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_java",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_java3.so",
+			"toolchain" : "3440914729"
+		},
+		"opencv_ml-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_ml",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_ml.a",
+			"toolchain" : "3440914729"
+		},
+		"opencv_objdetect-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_objdetect",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_objdetect.a",
+			"toolchain" : "3440914729"
+		},
+		"opencv_photo-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_photo",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_photo.a",
+			"toolchain" : "3440914729"
+		},
+		"opencv_shape-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_shape",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_shape.a",
+			"toolchain" : "3440914729"
+		},
+		"opencv_stitching-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_stitching",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_stitching.a",
+			"toolchain" : "3440914729"
+		},
+		"opencv_superres-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_superres",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_superres.a",
+			"toolchain" : "3440914729"
+		},
+		"opencv_video-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_video",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_video.a",
+			"toolchain" : "3440914729"
+		},
+		"opencv_videoio-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_videoio",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_videoio.a",
+			"toolchain" : "3440914729"
+		},
+		"opencv_videostab-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_videostab",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_videostab.a",
+			"toolchain" : "3440914729"
+		},
+		"tbb-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "tbb",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/libtbb.a",
+			"toolchain" : "3440914729"
+		},
+		"tegra_hal-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "tegra_hal",
+			"buildType" : "debug",
+			"output" : "D:/Demo/EasyPR4Android/app/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/libtegra_hal.a",
+			"toolchain" : "3440914729"
+		}
+	},
+	"toolchains" : 
+	{
+		"3440914729" : 
+		{
+			"cCompilerExecutable" : "D:/software/windows/AndroidSdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/software/windows/AndroidSdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

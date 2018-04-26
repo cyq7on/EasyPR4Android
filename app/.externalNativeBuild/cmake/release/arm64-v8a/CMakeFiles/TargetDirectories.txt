@@ -1,0 +1,3 @@
+D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/mrcar.dir
+D:/Demo/EasyPR4Android/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir

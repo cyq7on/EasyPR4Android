@@ -1,0 +1,27 @@
+# ninja log v5
+1248	2987	0	CMakeFiles/mrcar.dir/src/main/jni/src/core/params.cpp.o	a208ead2766a07bd
+2	5700	0	CMakeFiles/mrcar.dir/src/main/jni/src/core/chars_identify.cpp.o	b359164845a55374
+806	6159	0	CMakeFiles/mrcar.dir/src/main/jni/mrcar.cpp.o	ed7f3abb6cae86eb
+1681	6614	0	CMakeFiles/mrcar.dir/src/main/jni/src/core/plate_judge.cpp.o	658df60c5b78354e
+2157	7088	0	CMakeFiles/mrcar.dir/src/main/jni/src/core/chars_recognise.cpp.o	dc4ed9a9d94fc59c
+403	7572	0	CMakeFiles/mrcar.dir/src/main/jni/main.cpp.o	de9858980f14aa06
+2987	8205	0	CMakeFiles/mrcar.dir/src/main/jni/src/core/plate_locate.cpp.o	22d9c7fa30632789
+6614	10536	0	CMakeFiles/mrcar.dir/src/main/jni/src/core/plate_detect.cpp.o	8e7836d7f7443320
+5703	11162	0	CMakeFiles/mrcar.dir/src/main/jni/src/core/chars_segment.cpp.o	d55539d9d0054a1b
+7088	11669	0	CMakeFiles/mrcar.dir/src/main/jni/src/core/feature.cpp.o	fa2dc446d0812e28
+7572	12348	0	CMakeFiles/mrcar.dir/src/main/jni/src/train/svm_train.cpp.o	d957fc654ca26410
+6159	12808	0	CMakeFiles/mrcar.dir/src/main/jni/src/core/core_func.cpp.o	44d1b6394fd8cc68
+8205	13408	0	CMakeFiles/mrcar.dir/src/main/jni/src/train/annCh_train.cpp.o	bfbdee55843a8256
+11669	14315	0	CMakeFiles/mrcar.dir/src/main/jni/src/util/kv.cpp.o	b7d2f53ddc8d911a
+10536	14832	0	CMakeFiles/mrcar.dir/src/main/jni/src/core/plate_recognize.cpp.o	429def82ff2f981b
+11162	15392	0	CMakeFiles/mrcar.dir/src/main/jni/src/train/train.cpp.o	e62df8beb6fa24e1
+12348	16551	0	CMakeFiles/mrcar.dir/src/main/jni/src/train/ann_train.cpp.o	48cafbd4c21942a3
+13408	17054	0	CMakeFiles/mrcar.dir/src/main/jni/src/util/program_options.cpp.o	7cecafdae8d92eed
+12809	17528	0	CMakeFiles/mrcar.dir/src/main/jni/src/train/create_data.cpp.o	a4d59296dd068800
+14315	17975	0	CMakeFiles/mrcar.dir/src/main/jni/src/util/util.cpp.o	1b2815dfcdb05529
+14832	18424	0	CMakeFiles/mrcar.dir/src/main/jni/thirdparty/LBP/helper.cpp.o	3d5f74da912d89d4
+15392	18696	0	CMakeFiles/mrcar.dir/src/main/jni/thirdparty/mser/mser2.cpp.o	564a6f3719f1aeec
+16551	19075	0	CMakeFiles/mrcar.dir/src/main/jni/thirdparty/LBP/lbp.cpp.o	bf6e739b129953c8
+17528	19334	0	CMakeFiles/mrcar.dir/src/main/jni/thirdparty/xmlParser/xmlParser.cpp.o	e20757e4d1b80b29
+17054	22815	0	CMakeFiles/mrcar.dir/src/main/jni/thirdparty/textDetect/erfilter.cpp.o	e8696b1bb0c7efed
+22815	28398	0	../../../../build/intermediates/cmake/debug/obj/mips64/libmrcar.so	86d4de07affd134b

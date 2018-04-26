@@ -1,0 +1,15 @@
+Executable : D:\software\windows\AndroidSdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HD:\Demo\EasyPR4Android\app
+-BD:\Demo\EasyPR4Android\app\.externalNativeBuild\cmake\release\armeabi
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=armeabi
+-DANDROID_NDK=D:\software\windows\AndroidSdk\ndk-bundle
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\Demo\EasyPR4Android\app\build\intermediates\cmake\release\obj\armeabi
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_MAKE_PROGRAM=D:\software\windows\AndroidSdk\cmake\3.6.4111459\bin\ninja.exe
+-DCMAKE_TOOLCHAIN_FILE=D:\software\windows\AndroidSdk\ndk-bundle\build\cmake\android.toolchain.cmake
+-DANDROID_PLATFORM=android-21
+-DCMAKE_CXX_FLAGS=-std=c++11
+jvmArgs : 
+
